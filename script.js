@@ -1,3 +1,4 @@
+
 // Fade-in on scroll
 const sections = document.querySelectorAll("section");
 
@@ -135,4 +136,11 @@ const mouseCroissant = document.getElementById('mouse-croissant');
 
 window.addEventListener('mousemove', (e) => {
     mouseCroissant.style.transform = `translate(${e.clientX}px, ${e.clientY}px) translate(-50%, -50%)`;
+});
+
+document.querySelectorAll('a[href^="#donate"]').forEach(anchor => {
+  anchor.addEventListener('click', e => {
+    e.preventDefault();
+    document.querySelector('#donate').scrollIntoView({ behavior: 'smooth' });
+  });
 });

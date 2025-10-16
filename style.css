@@ -357,3 +357,63 @@ body {
     transition: transform 0.05s ease-out; /* smooth movement */
     z-index: 999; /* above other content */
 }
+/* === Croissant Dev Donation Section === */
+
+.donate-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #00fff7;
+  font-weight: 700;
+}
+
+.donate-section p {
+  max-width: 640px;
+  margin: 0.5rem auto 2rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.donation-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.donate-card {
+  background: #151514;
+  border: 1px solid #00fff7;
+  border-radius: 1.2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  padding: 1.8rem;
+  width: 260px;
+  transition: all 0.25s ease-in-out;
+}
+
+.donate-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.donate-card img.qr {
+  width: 180px;
+  border-radius: 12px;
+  margin-bottom: 0.8rem;
+}
+
+.donate-card img.logo {
+  width: 100px;
+  margin-bottom: 0.5rem;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #00fff7;
+}
+
+.thankyou {
+  margin-top: 2.5rem;
+  font-style: italic;
+  color: #00fff7;
+  font-size: 1rem;
+}
