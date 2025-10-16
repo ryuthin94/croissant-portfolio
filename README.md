@@ -1,4 +1,4 @@
-# Croissant Dev
+# Croissant Dev V.1.0.1
 
 Welcome to **Croissant Dev** — a playful, interactive personal portfolio showcasing projects, creativity, and coding experiments.  
 
@@ -8,7 +8,8 @@ Welcome to **Croissant Dev** — a playful, interactive personal portfolio showc
 
 - **Glowing header** with animated tagline: *"Developing with a taste for Croissants and Creativity."*  
 - **Floating croissants** and **starry background** for a whimsical, modern look.  
-- **Project showcase** with hover overlays linking to GitHub and live demos.  
+- **Project showcase** with hover overlays linking to GitHub and live demos.
+- **Donation section** with hover animation.
 - **Contact section** with GitHub and email links.  
 - **Mouse-follow croissant** for interactive fun.  
 - Fully **responsive** for desktop and mobile devices.  
