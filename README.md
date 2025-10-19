@@ -1,4 +1,4 @@
-# Croissant Dev V.1.0.1
+# Croissant Dev V.1.1.0
 
 Welcome to **Croissant Dev** — a playful, interactive personal portfolio showcasing projects, creativity, and coding experiments.  
 
